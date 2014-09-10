@@ -5,10 +5,7 @@
 int main()
 {
     int opcao;
-
-    printf("\n\n------------------ SGH - SISTEMA DE GERENCIAMENTO DE HOTEL ------------------\n\n");
-
-
-    getchar();
-    return 0;
+    Quartos *lstQuartos;
+    lstQuartos = iniciarLista();
+    menuHospedagem(lstQuartos);
 }
